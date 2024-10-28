@@ -39,7 +39,7 @@ Medical transcription can be time-consuming, especially when analyzing and categ
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/Medical-Transcription-Analysis-App.git
+   git clone https://github.com/VirendraChavda/medical-transcription.git
    cd Medical-Transcription-Analysis-App
    ```
 2. **Install Required Packages**
