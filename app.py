@@ -11,7 +11,7 @@ import os
 app = Flask(__name__)
 socketio = SocketIO(app)
 
-aai.settings.api_key = ${{ secrets.AI_API }}
+aai.settings.api_key = os.environ.get("AI_API")
 transcriber = None  
 session_id = None  
 transcriber_lock = threading.Lock()
